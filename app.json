@@ -12,17 +12,51 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "tech.akalin.ecommerce1",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "REVERSED_CLIENT_ID_FROM_GOOGLE_CLOUD"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "tech.akalin.ecommerce1",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scheme": "tech.akalin.ecommerce1",
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "plugins": [
+      // [
+      //   "expo-auth-session",
+      //   {
+      //     "scheme": "tech.akalin.ecommerce1"
+      //   }
+      // ], 
+      [
+        "@react-native-google-signin/google-signin"
+      ]
+    ]
+  },
+  "android": {
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist"
     }
-  }
 }

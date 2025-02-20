@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "489349235744",
+    "project_id": "ecommerce1-18180",
+    "storage_bucket": "ecommerce1-18180.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489349235744:android:ee5ed033a35745313ce845",
+        "android_client_info": {
+          "package_name": "tech.akalin.ecommerce1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489349235744-l9300odkh93estkaidtvsn4vlb6ni0u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.akalin.ecommerce1",
+            "certificate_hash": "4b7d1a2c444b1f307354f4ef92091aece3908cb0"
+          }
+        },
+        {
+          "client_id": "489349235744-cnbmmip4585gjpftd4pt655clvatid5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7iZru4QjHGMkNBLqCtsHsHYeLf51X6zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489349235744-cnbmmip4585gjpftd4pt655clvatid5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
